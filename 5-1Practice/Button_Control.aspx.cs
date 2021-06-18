@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,6 +9,11 @@ namespace _5_1Practice {
     public partial class Button_Control : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
 
+        }
+
+        protected void btn_Sub_Click(object sender, EventArgs e)
+        {
+            lb_Txt.Text = "這是個按鈕觸發Label標籤動作";
         }
     }
 }
